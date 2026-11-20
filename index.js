@@ -5,6 +5,6 @@ const app = express();
 app.get('/home',(req,res)=>{
 return res.send('Hello')
 })
-app.listen(5000,()=>{
+app.listen(3000,()=>{
     console.log('Server is running')
 })
